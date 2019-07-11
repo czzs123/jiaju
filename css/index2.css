@@ -1,0 +1,75 @@
+*{margin:0; padding:0;}
+/*导航栏*/
+.daohang{
+    width:100%;
+  }
+  .fenlei{
+    display:flex;
+    list-style: none;
+    justify-content: center;
+  }
+  .fenlei>li{
+    padding: 5px 20px;
+    font-size:20px;
+  }
+  .fenlei>li>.bg_Color>a{
+    text-decoration: none;
+    color:black;
+  }
+  .bgColor {
+    padding: 0 10px;
+    background-color: brown;
+  } 
+  .daohang a{
+    text-decoration: none;
+    color:#000;
+    margin-bottom: 10px;
+  }
+  /*关于我们*/
+  .guanyu{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+  }
+  .guanyu1{
+    width:50%;
+    text-align: left;
+    margin:0 auto;
+  }
+  .guanyu1>p{
+    font-size: 23px;
+    margin-left: 10px;
+  }
+  .shitu1{
+    margin:0 auto;
+  }
+  .shitu1>a>img{
+    width:1000px;
+    height:500px;
+  }
+  .guanyu2{
+    width:50%;
+    text-align: left;
+    margin:0 auto
+  }
+  .guanyu2>p{
+    font-size: 23px;
+    margin-left: 10px;
+  }
+  .shitu2{
+    width:55%;
+    margin:0 auto;
+  }
+  .guanyu3{
+    width:50%;
+    text-align: left;
+    margin:0 auto
+  }
+  .guanyu3>p{
+    font-size: 23px;
+    margin-left: 10px;
+  }
+  .shitu3{
+    width:55%;
+    margin:0 auto;
+  }

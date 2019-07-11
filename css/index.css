@@ -1,0 +1,107 @@
+/*导航栏*/
+  .daohang{
+    width:100%;
+  }
+  .fenlei{
+    display:flex;
+    list-style: none;
+    justify-content: center;
+  }
+  .fenlei>li{
+    padding: 5px 20px;
+    font-size:20px;
+  }
+  .fenlei>li>.bg_Color>a{
+    text-decoration: none;
+    color:black;
+  }
+  .bgColor {
+    padding: 0 10px;
+    background-color: brown;
+  }
+  .daohang a{
+    text-decoration: none;
+    color:#000;
+    margin-bottom: 10px;
+  }
+/*轮播图*/
+*{margin:0; padding:0;}
+    #main{
+      width:1000px;
+      margin:0 auto;
+    }
+    #banner{
+      width:1000px;
+      overflow:hidden;
+      position:relative;
+    }
+    #ul-imgs{
+      list-style:none;
+    }
+    #ul-imgs.transition{
+      transition:all .5s linear;
+    }
+    #ul-imgs>li{
+      width:1000px;
+      float:left;
+      height:667px;
+    }
+    #ul-imgs img{
+      width:1000px;
+    }
+    #ul-idxs{
+      width:100px;
+      margin:0 auto;
+      list-style:none;
+      position:absolute;
+      bottom:25px;
+      left:50%;
+      margin-left:-50px;
+    }
+    #ul-idxs>li{
+      float:left;
+      width:10px; height:10px;
+      background-color:#fff;
+      border-radius:5px;
+      margin:0 5px;
+      cursor:pointer;
+    }
+    #ul-idxs>li.active{
+      background-color:blue;
+    }
+    #btn-left,#btn-right{
+      width:60px;
+      height:100%;
+      position:absolute;
+      top:0;
+      background-repeat:no-repeat;
+      background-position:center;
+      cursor:pointer;
+    }
+    #btn-left{
+      left:20px;
+      background-image:url(../img/left_ar.png);
+    }
+    #btn-right{
+      right:20px;
+      background-image:url(../img/right_ar.png);
+    }
+    #btn-left:hover,#btn-right:hover{
+      background-size:40px 70px
+    }
+    /*赞助图标*/
+    .zanzhuOne{
+      width:40%;
+      height: 140px;
+      display: flex;
+      margin:0 auto;
+    }
+    .zanzhuTwo{
+      width:55%;
+      height: 200px;
+      display: flex;
+      margin:0 auto;
+    }
+    
+    
+    

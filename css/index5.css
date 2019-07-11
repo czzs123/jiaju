@@ -1,0 +1,28 @@
+*{margin:0; padding:0;}
+/*导航栏*/
+.daohang{
+    width:100%;
+  }
+  .fenlei{
+    display:flex;
+    list-style: none;
+    justify-content: center;
+  }
+  .fenlei>li{
+    padding: 5px 20px;
+    font-size:20px;
+  }
+  .fenlei>li>.bg_Color>a{
+    text-decoration: none;
+    color:black;
+  }
+  .bgColor {
+    padding: 0 10px;
+    background-color: brown;
+  }
+  .daohang a{
+    text-decoration: none;
+    color:#000;
+    margin-bottom: 10px;
+  }
+  
